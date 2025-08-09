@@ -5,7 +5,9 @@ base_url = "https://blog.xela.zone"
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
+build_search_index = true
+
+theme = "anemone"
 
 [markdown]
 # Whether to do syntax highlighting
@@ -14,3 +16,17 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+
+
+author = "Xela"
+favicon = "favicon.ico"
+list_pages = false
+twitter_card = false
+enable_search = true
+
+## Navigation
+header_nav = [
+  { url = "/", name_en = "/home/"},
+  { url = "/about", name_en = "/about/" },
+#  { url = "/blog", name_en = "/blog/" }
+]
